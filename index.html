@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Index Page</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -webkit-font-smoothing: antialiased;
+          -moz-font-smoothing: antialiased;
+          -o-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+          text-rendering: optimizeLegibility;
+        }
+        
+        body {
+          font-family: "Roboto", Helvetica, Arial, sans-serif;
+          font-weight: 150;
+          font-size: 12px;
+          line-height: 0px;
+          color:  rgb(0, 0, 0);
+          background: #4CAF50;
+        }
+        
+        .container {
+          max-width: 400px;
+          width: 100%;
+          margin: 0 auto;
+          position: relative;
+        }
+        
+        
+        #contact {
+          background: #F9F9F9;
+          padding: 25px;
+          margin: 50px 0;
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+        
+
+        
+        fieldset {
+          border: medium none !important;
+          margin: 0 0 10px;
+          min-width: 100%;
+          padding: 0;
+          width: 100%;
+        }
+        
+        #contact button[type="submit"] {
+          cursor: pointer;
+          width: 100%;
+          border: none;
+          background: #4CAF50;
+          color: #FFF;
+          margin: 0 0 5px;
+          padding: 10px;
+          font-size: 15px;
+        }
+        
+        #contact button[type="submit"]:hover {
+          background: #43A047;
+          -webkit-transition: background 0.5s ease-in-out;
+          -moz-transition: background 0.3s ease-in-out;
+          transition: background 0.3s ease-in-out;
+          width: 100%;
+          border: none;
+          background: #4CAF50;
+          color: #FFF;
+          margin: 0 0 5px;
+          padding: 10px;
+          font-size: 15px;
+        }
+        </style>
+
+
+
+
+</head>
+<body>
+    <div class="container">
+    <form class="login-form" id='contact' action="register.php"> <button name="submit" type="submit" >REGISTER</button></form><br><br>
+    <form class="login-form" id='contact' action="login.php"> <button name="submit" type="submit" >LOGIN</button></form>
+</div>
+</body>
+</html>
